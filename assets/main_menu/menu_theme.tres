@@ -1,0 +1,36 @@
+[gd_resource type="Theme" load_steps=6 format=3 uid="uid://deectvppyfka2"]
+
+[ext_resource type="FontFile" uid="uid://cktx47uyncute" path="res://assets/main_menu/go3v2.ttf" id="1_ul8fi"]
+[ext_resource type="StyleBox" uid="uid://bmmrtk8mhr02q" path="res://assets/main_menu/button/menu_button_focus_style_box_flat.tres" id="2_7hujf"]
+[ext_resource type="StyleBox" uid="uid://csjeobvcdhp2j" path="res://assets/main_menu/button/menu_button_hover_style_box_flat.tres" id="3_jhrsi"]
+[ext_resource type="StyleBox" uid="uid://c14y2xt6femr2" path="res://assets/main_menu/button/menu_button_normal_style_box_flat.tres" id="4_3mpts"]
+[ext_resource type="StyleBox" uid="uid://iccnkuu8oasw" path="res://assets/main_menu/button/menu_button_hover_pressed_style_box_flat.tres" id="4_7hujf"]
+
+[resource]
+default_font = ExtResource("1_ul8fi")
+default_font_size = 30
+Button/colors/font_color = Color(1, 1, 1, 1)
+Button/colors/font_disabled_color = Color(1, 1, 1, 1)
+Button/colors/font_focus_color = Color(1, 1, 1, 1)
+Button/colors/font_hover_color = Color(1, 1, 1, 1)
+Button/colors/font_hover_pressed_color = Color(1, 1, 1, 1)
+Button/colors/font_outline_color = Color(1, 1, 1, 1)
+Button/colors/font_pressed_color = Color(1, 1, 1, 1)
+Button/colors/icon_disabled_color = Color(1, 1, 1, 1)
+Button/colors/icon_focus_color = Color(1, 1, 1, 1)
+Button/colors/icon_hover_color = Color(1, 1, 1, 1)
+Button/colors/icon_hover_pressed_color = Color(1, 1, 1, 1)
+Button/colors/icon_normal_color = Color(1, 1, 1, 1)
+Button/colors/icon_pressed_color = Color(1, 1, 1, 1)
+Button/constants/align_to_largest_stylebox = 0
+Button/constants/h_separation = 0
+Button/constants/icon_max_width = 0
+Button/constants/outline_size = 0
+Button/font_sizes/font_size = 40
+Button/fonts/font = ExtResource("1_ul8fi")
+Button/styles/disabled = null
+Button/styles/focus = ExtResource("2_7hujf")
+Button/styles/hover = ExtResource("3_jhrsi")
+Button/styles/hover_pressed = ExtResource("4_7hujf")
+Button/styles/normal = ExtResource("4_3mpts")
+Button/styles/pressed = ExtResource("4_7hujf")

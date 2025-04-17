@@ -1,0 +1,60 @@
+[gd_scene load_steps=9 format=3 uid="uid://cms6qaoalsikq"]
+
+[ext_resource type="Script" uid="uid://dolk61d3oq41a" path="res://assets/player/player.gd" id="1_g2els"]
+[ext_resource type="Texture2D" uid="uid://cfox8631s6uog" path="res://assets/characters/tung_tung_sahur_32x32.png" id="2_qhqgy"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5rfim"]
+atlas = ExtResource("2_qhqgy")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r4wdr"]
+atlas = ExtResource("2_qhqgy")
+region = Rect2(0, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bhu28"]
+atlas = ExtResource("2_qhqgy")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4p75b"]
+atlas = ExtResource("2_qhqgy")
+region = Rect2(32, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y8ti4"]
+atlas = ExtResource("2_qhqgy")
+region = Rect2(0, 32, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_astit"]
+animations = [{
+"frames": [{
+"duration": 3.0,
+"texture": SubResource("AtlasTexture_5rfim")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r4wdr")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_bhu28")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_4p75b")
+}, {
+"duration": 0.8,
+"texture": SubResource("AtlasTexture_y8ti4")
+}],
+"loop": true,
+"name": &"walking",
+"speed": 5.0
+}]
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_g2els")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_astit")
+animation = &"walking"
+frame_progress = 0.318845

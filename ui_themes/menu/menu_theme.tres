@@ -1,10 +1,10 @@
 [gd_resource type="Theme" load_steps=6 format=3 uid="uid://deectvppyfka2"]
 
-[ext_resource type="FontFile" uid="uid://cktx47uyncute" path="res://assets/main_menu/go3v2.ttf" id="1_ul8fi"]
-[ext_resource type="StyleBox" uid="uid://bmmrtk8mhr02q" path="res://assets/main_menu/button/menu_button_focus_style_box_flat.tres" id="2_7hujf"]
-[ext_resource type="StyleBox" uid="uid://csjeobvcdhp2j" path="res://assets/main_menu/button/menu_button_hover_style_box_flat.tres" id="3_jhrsi"]
-[ext_resource type="StyleBox" uid="uid://c14y2xt6femr2" path="res://assets/main_menu/button/menu_button_normal_style_box_flat.tres" id="4_3mpts"]
-[ext_resource type="StyleBox" uid="uid://iccnkuu8oasw" path="res://assets/main_menu/button/menu_button_hover_pressed_style_box_flat.tres" id="4_7hujf"]
+[ext_resource type="FontFile" uid="uid://cktx47uyncute" path="res://assets/fonts/menu_font.ttf" id="1_ul8fi"]
+[ext_resource type="StyleBox" uid="uid://bmmrtk8mhr02q" path="res://ui_themes/menu/button/menu_button_focus_style_box_flat.tres" id="2_7hujf"]
+[ext_resource type="StyleBox" uid="uid://csjeobvcdhp2j" path="res://ui_themes/menu/button/menu_button_hover_style_box_flat.tres" id="3_jhrsi"]
+[ext_resource type="StyleBox" uid="uid://c14y2xt6femr2" path="res://ui_themes/menu/button/menu_button_normal_style_box_flat.tres" id="4_3mpts"]
+[ext_resource type="StyleBox" uid="uid://iccnkuu8oasw" path="res://ui_themes/menu/button/menu_button_hover_pressed_style_box_flat.tres" id="4_7hujf"]
 
 [resource]
 default_font = ExtResource("1_ul8fi")

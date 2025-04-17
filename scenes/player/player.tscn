@@ -1,6 +1,6 @@
-[gd_scene load_steps=9 format=3 uid="uid://cms6qaoalsikq"]
+[gd_scene load_steps=10 format=3 uid="uid://cms6qaoalsikq"]
 
-[ext_resource type="Script" uid="uid://dolk61d3oq41a" path="res://assets/player/player.gd" id="1_g2els"]
+[ext_resource type="Script" uid="uid://dolk61d3oq41a" path="res://scenes/player/player.gd" id="1_g2els"]
 [ext_resource type="Texture2D" uid="uid://cfox8631s6uog" path="res://assets/characters/tung_tung_sahur_32x32.png" id="2_qhqgy"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_5rfim"]
@@ -51,10 +51,19 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dovo2"]
+size = Vector2(19, 27)
+
 [node name="Player" type="CharacterBody2D"]
 script = ExtResource("1_g2els")
+speed = 150.0
+metadata/_edit_group_ = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_astit")
 animation = &"walking"
 frame_progress = 0.318845
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.5, 0.5)
+shape = SubResource("RectangleShape2D_dovo2")

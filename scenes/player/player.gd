@@ -7,10 +7,11 @@ var direction := Vector2.ZERO
 func _physics_process(delta: float) -> void:
 	direction = Vector2.ZERO
 
-	# trash code
 	if Input.is_action_pressed("ui_right"):
+		$AnimatedSprite2D.flip_h = false
 		direction.x += 1
 	if Input.is_action_pressed("ui_left"):
+		$AnimatedSprite2D.flip_h = true
 		direction.x -= 1
 	if Input.is_action_pressed("ui_down"):
 		direction.y += 1

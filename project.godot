@@ -11,9 +11,14 @@ config_version=5
 [application]
 
 config/name="rogue_like_poc"
-run/main_scene="uid://ckp3j2oy2bdou"
+run/main_scene="uid://btjj4lrvx3ikv"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
+
+[global_group]
+
+menu=""
+level=""
 
 [input]
 

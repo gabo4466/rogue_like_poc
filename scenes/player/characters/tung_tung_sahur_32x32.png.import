@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://kyejg1tw6srr"
-path="res://.godot/imported/main_menu_background.png-7223d873b8c1285148be1105791c802f.ctex"
+uid="uid://cfox8631s6uog"
+path="res://.godot/imported/tung_tung_sahur_32x32.png-a3fa770e56ab363d0382d8a55f7c6cad.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/pictures/main_menu_background.png"
-dest_files=["res://.godot/imported/main_menu_background.png-7223d873b8c1285148be1105791c802f.ctex"]
+source_file="res://scenes/player/characters/tung_tung_sahur_32x32.png"
+dest_files=["res://.godot/imported/tung_tung_sahur_32x32.png-a3fa770e56ab363d0382d8a55f7c6cad.ctex"]
 
 [params]
 

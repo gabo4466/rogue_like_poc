@@ -1,7 +1,7 @@
 [gd_scene load_steps=10 format=3 uid="uid://cms6qaoalsikq"]
 
 [ext_resource type="Script" uid="uid://dolk61d3oq41a" path="res://scenes/player/player.gd" id="1_g2els"]
-[ext_resource type="Texture2D" uid="uid://cfox8631s6uog" path="res://assets/characters/tung_tung_sahur_32x32.png" id="2_qhqgy"]
+[ext_resource type="Texture2D" uid="uid://cfox8631s6uog" path="res://scenes/player/characters/tung_tung_sahur_32x32.png" id="2_qhqgy"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_5rfim"]
 atlas = ExtResource("2_qhqgy")

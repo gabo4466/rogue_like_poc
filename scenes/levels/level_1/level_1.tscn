@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://psj2b4evgy11"]
+
+[ext_resource type="PackedScene" uid="uid://cms6qaoalsikq" path="res://scenes/player/player.tscn" id="1_fngju"]
+[ext_resource type="TileSet" uid="uid://dyxv1wpsjs8sr" path="res://scenes/levels/catacombs_tileset.tres" id="2_5o1mp"]
+
+[node name="LevelOne" type="Node2D" groups=["level"]]
+
+[node name="Player" parent="." instance=ExtResource("1_fngju")]
+
+[node name="TileMapLayer" type="TileMapLayer" parent="."]
+tile_set = ExtResource("2_5o1mp")
